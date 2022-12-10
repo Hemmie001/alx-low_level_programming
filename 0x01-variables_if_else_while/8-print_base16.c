@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /*
  *  
- *  * main - prints all the numbers of base 16 in lowercase 
+ *  * main - prints all the numbers of base 16 in lowercasi
  *  * Return: Always 0 (Success)
 */
 int main(void)
