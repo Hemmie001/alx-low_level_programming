@@ -1,4 +1,4 @@
-#include "main.h"
+#include "mai_h"
 /**
  *  * print_alphabet - entry point
  *  *Return: 0
