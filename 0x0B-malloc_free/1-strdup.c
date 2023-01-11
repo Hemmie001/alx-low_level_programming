@@ -6,7 +6,7 @@
  * * _strdup : duplicates a string
  * * @str: char
  * * @char: *aaa
- * * Description:returns a pointer to a newly allocated space in memory
+ * * Description: Duplicates string to a newly allocated space in memory
  * * Return: 0
  */
 
