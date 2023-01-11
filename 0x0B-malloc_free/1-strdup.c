@@ -1,13 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 
 /*
- * * _strdup : duplicates a string
+ * * _strdup - duplicates a string
  * * @str: char
- * * @char: *aaa
  * * Description: Duplicates string to a newly allocated space in memory
- * * Return: 0
+ * * Return: char
  */
 
 char *_strdup(char *str)
