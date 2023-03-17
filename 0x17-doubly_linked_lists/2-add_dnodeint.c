@@ -1,20 +1,25 @@
 #include "lists.h"
 
 /**
- * dlistint_len - Counts the number of elements in a linked dlistint_t list.
- * @h: The head of the dlistint_t list.
- *
- * Return: The number of elements in the dlistint_t list.
- */
-size_t dlistint_len(const dlistint_t *h)
+ * add_dnodeint - adds a new node at the beginning of a dlistint_t list.
+ * @head: pointer to the first element of the list.
+ * @n: int to set in the new node.
+ * Return: address of the new element, or NULL if it failed
+ **/
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	size_t nodes = 0;
+	dlistint_t *new;
 
-	while (h)
-	{
-		nodes++;
-		h = h->next;
-	}
+	new = malloc(sizeof(dlistint_t));
+	if (new == NULL)
+		return (NULL);
 
-	return (nodes);
+	new->n = n;
+	new->prev = NULL;
+	new->next = *head;
+	if (*head)
+		(*head)->prev = new;
+	*head = new;
+
+	return (new);
 }
