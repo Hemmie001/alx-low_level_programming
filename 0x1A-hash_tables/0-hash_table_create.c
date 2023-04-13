@@ -3,7 +3,7 @@
 /**
  * hash_table_create - creates a hash table.
  * @size:  size of the array.
- * Return: pointer to hash table's new node, 
+ * Return: pointer to hash table's new node,
  * or return  NULL if somethong was wrong.
  **/
 
