@@ -4,7 +4,6 @@ OBJ = $(SRC:.c=.o)
 NAME = holberton
 RM = rm -f
 
-.PHONY: clean oclean fclean re
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
