@@ -3,6 +3,7 @@
 This Module creates a function that returns the perimeter of an island
 """
 
+
 def island_perimeter(grid):
     """ Function that returns the perimeter  """
     perimeter = 0
