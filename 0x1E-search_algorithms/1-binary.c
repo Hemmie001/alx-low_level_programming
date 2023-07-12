@@ -13,7 +13,7 @@ void print_array(int *array, int left, int right);
 
 int binary_search(int *array, size_t size, int value)
 {
-	if (!array)
+	if (array == NULL)
 		return (-1);
 	return (binary_search_rec(array, 0, (int)size - 1, value));
 }
